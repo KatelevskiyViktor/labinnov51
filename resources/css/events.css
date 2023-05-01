@@ -1,0 +1,124 @@
+.events{
+    background-image: linear-gradient(to right, #247621, #77C349);
+}
+
+
+.event_cont *{
+    box-sizing: border-box;
+
+}
+
+p.text{
+    color: #707981;
+}
+
+.event_cont{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Open Sans", sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+
+
+.event_cont a {
+    text-decoration: none;
+}
+
+.event_cont h1 {
+    font-size: 25px;
+    font-weight: 300;
+
+}
+
+
+.card {
+    float: left;
+    padding: 0 1.7rem;
+    width: 100%;
+    margin: 40px 0;
+}
+
+
+.card .wrapper {
+    background-color: #fff;
+    min-height: 540px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.card .wrapper:hover .data {
+    transform: translateY(0);
+}
+
+.card .data {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(calc(70px + 1em));
+    transition: transform 0.3s;
+}
+.card .data .content {
+    padding: 1em;
+    position: relative;
+    z-index: 1;
+    background-color:#313234;
+}
+.card .author {
+    font-size: 12px;
+}
+.card .title {
+
+    margin-bottom: 10px;
+}
+.card .text {
+    height: 70px;
+    margin: 0;
+
+}
+.card input[type=checkbox] {
+    display: none;
+}
+
+
+.example-1:hover .wrapper{
+    background-size: 40%;
+    transition: all .5s;
+
+}
+
+
+.example-1 .date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fd7020;
+    color: #fff;
+    padding: 0.8em;
+}
+.example-1 .date span {
+    display: block;
+    text-align: center;
+}
+.example-1 .date .day {
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+.example-1 .date .month {
+    text-transform: uppercase;
+}
+.example-1 .date .month,
+.example-1 .date .year {
+    font-size: 12px;
+}
+.example-1 .content {
+    background-color: #fff;
+    box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.example-1 .title a {
+    color: #fd7020;
+}

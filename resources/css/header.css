@@ -1,0 +1,156 @@
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:2;
+    width: 100%;
+    background-color: white;
+
+}
+
+.search{
+    cursor: pointer;
+}
+
+.form_search{
+    display: none;
+    background-color: #313234;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.search_input{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #247621;
+}
+
+.search_input:focus{
+    outline:none;
+    box-shadow: 0 0 15px #247621;
+}
+
+.is_invalid{
+    border: 2px solid orangered;
+}
+
+.search_button{
+    background-color: white;
+    border: 0;
+    color: #E86A22;
+    font-size: 25px;
+    position: absolute;
+    right: 22px;
+    bottom: 22px;
+    margin-top: 30px;
+    padding: 3px 20px;
+    line-height: 40px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.search_button:active {
+
+    border-bottom: 0;
+}
+
+.nav_menu .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 400px;
+
+}
+
+.nav_menu{
+    background-color: #247621;
+    width: 100%;
+}
+
+.items_menu ul{
+    display: flex;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.items_menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.items_menu a{
+    display: inline-block;
+}
+.items_menu a, .search{
+    padding: 10px;
+}
+.items_menu li:hover, .search:hover{
+    background-color: #fd7020;
+    transition: background-color .3s;
+}
+.items_menu li:hover .menu_trigger2{
+    color: black;
+}
+
+.items_menu a:nth-child(4):hover li{
+    background-color: #fd7020;
+    transition: background-color .3s;
+
+}
+
+.items_menu{
+
+    border-top: 4px solid #fd7020;
+    border-bottom: 4px solid #fd7020;
+}
+
+ul.dropdown{
+    display: none;
+    font-size: 15px;
+
+}
+ul.dropdown svg{
+    color: #247621;
+}
+
+.items_menu li:nth-child(4):hover ul.dropdown{
+    display: flex;
+    flex-direction: column;
+    transition: display .5s;
+    position: absolute;
+}
+
+
+ul.dropdown {
+    background-color: #fd7020;
+    padding: 10px;
+}
+
+
+.menu_trigger{
+    font-size: 24px;
+    color: #fd7020;
+    outline: 1px solid #fd7020;
+    padding: 0 10px;
+    display: none;
+}
+
+
+.menu_trigger:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+}
+
+.menu_trigger2{
+    color: #fd7020;
+    display: none;
+}

@@ -1,0 +1,21 @@
+footer{
+    background-color: #1D1D1D;
+    padding: 10px;
+
+}
+footer .container{
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.social_service{
+    font-size: 35px;
+    color: #247621;
+}
+
+a.link_foot{
+    color: #247621;
+}

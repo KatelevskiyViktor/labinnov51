@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body{
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color:#494949;
+    line-height: 1.5;
+    background: url("../storage/images/technobatli_body.jpg")no-repeat fixed 20% 1%/cover;
+
+}
+.structure{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.container {
+    max-width: 1024px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main{
+    flex: 1 0 auto;
+}
+
+
+.active_page{
+    background-color: #fd7020;
+}
+
+
+footer {
+
+    flex: 0 0 auto;
+
+}
+
+
+.is_invalid{
+    outline: 2px solid #dc3545;
+}
+
+.invalid_feedback{
+    color: #dc3545;
+    font-size: 12px;
+}
+.success_feedback{
+    color: #155724;
+    font-size: 15px;
+}
+
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}

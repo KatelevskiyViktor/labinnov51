@@ -1,0 +1,56 @@
+.about{
+    background-color: #494949;
+    color: white;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about hr{
+    color: #247621!important;
+    size: 4px;
+}
+.up_block_about{
+    display: flex;
+}
+
+.down_block_about{
+    display: flex;
+}
+
+
+.img_place{
+    width: 40%;
+    background: url("../storage/images/techbattles_28_09_2021/large/img-5.jpg") 40% 1%/cover no-repeat;
+
+}
+
+
+
+.description{
+    width: 60%;
+    padding: 20px;
+    height: 400px;
+}
+
+
+.map{
+    width: 60%;
+    padding: 20px;
+}
+
+.contact{
+    color: white;
+    padding: 20px;
+    width: 40%;
+    font-weight: 600;
+}
+
+.contact a{
+    color: #fd7020;
+    font-size: 20px;
+    text-decoration: none;
+}
